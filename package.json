@@ -1,0 +1,32 @@
+{
+  "name": "document-analyzer",
+  "version": "1.0.0",
+  "description": "Document Analyzer Backend API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uthmanduro/Document-Analyzer.git"
+  },
+  "author": "Uthman Durosinlohun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uthmanduro/Document-Analyzer/issues"
+  },
+  "homepage": "https://github.com/Uthmanduro/Document-Analyzer#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.11",
+    "pdf-parse": "^1.1.1"
+  }
+}
